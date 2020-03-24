@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SampleApp.MainPage"
+             Title="SmartRefreshLayout Demo">
+
+    <ScrollView>
+        <StackLayout Orientation="Vertical">
+            <Button Text="DeliveryRefresh" x:Name="DeliveryRefreshBtn" Clicked="DeliveryRefreshBtn_Clicked"></Button>
+            <Button Text="DropBoxRefresh only for Android X" x:Name="DropBoxRefreshBtn" Clicked="DropBoxRefreshBtn_Clicked"></Button>
+            <Button Text="BezierRadarRefresh" x:Name="BezierRadarRefreshBtn" Clicked="BezierRadarRefreshBtn_Clicked"></Button>
+            <Button Text="BezierCircleRefresh" x:Name="BezierCircleRefreshBtn" Clicked="BezierCircleRefreshBtn_Clicked"></Button>
+            <Button Text="FlyRefresh" x:Name="FlyRefreshBtn" Clicked="FlyRefreshBtn_Clicked"></Button>
+            <Button Text="ClassicsRefresh" x:Name="ClassicsRefreshBtn" Clicked="ClassicsRefreshBtn_Clicked"></Button>
+            <Button Text="PhoenixRefresh" x:Name="PhoenixRefreshBtn" Clicked="PhoenixRefreshBtn_Clicked"></Button>
+            <Button Text="TaurusRefresh" x:Name="TaurusRefreshBtn" Clicked="TaurusRefreshBtn_Clicked"></Button>
+            <Button Text="BattleCityRefresh" x:Name="BattleCityRefreshBtn" Clicked="BattleCityRefreshBtn_Clicked"></Button>
+            <Button Text="HitBlockRefresh" x:Name="HitBlockRefreshBtn" Clicked="HitBlockRefreshBtn_Clicked"></Button>
+            <Button Text="WaveSwipeRefresh" x:Name="WaveSwipeRefreshBtn" Clicked="WaveSwipeRefreshBtn_Clicked"></Button>
+            <Button Text="MaterialRefresh" x:Name="MaterialRefreshBtn" Clicked="MaterialRefreshBtn_Clicked"></Button>
+            <Button Text="StoreHouseRefresh" x:Name="StoreHouseRefreshBtn" Clicked="StoreHouseRefreshBtn_Clicked"></Button>
+            <Button Text="WaterDropRefresh" x:Name="WaterDropRefreshBtn" Clicked="WaterDropRefreshBtn_Clicked"></Button>
+            <Button Text="HorizontalRefresh" x:Name="HorizontalRefreshBtn" Clicked="HorizontalRefreshBtn_Clicked"></Button>
+        </StackLayout>
+    </ScrollView>
+    
+
+</ContentPage>

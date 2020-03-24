@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    tools:context="com.scwang.refreshlayout.activity.style.FlyRefreshStyleActivity">
+
+    <com.scwang.smartrefresh.header.flyrefresh.MountainSceneView
+        android:id="@+id/mountain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:msvViewportHeight="340dp"
+        app:msvPrimaryColor="@color/colorPrimary"/>        
+
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:id="@+id/refreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srlHeaderMaxDragRate="1.5"
+        app:srlHeaderHeight="100dp"
+        app:srlReboundDuration="200"
+        app:srlEnableLoadMore="false"
+        app:srlEnablePreviewInEditMode="true"
+        app:srlEnableOverScrollBounce="false"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <com.scwang.smartrefresh.header.FlyRefreshHeader
+            android:id="@+id/flyRefresh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <ScrollView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="180dp"
+            android:clipToPadding="true"
+            android:background="@android:color/white"/>
+        
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fab_margin"
+        app:fabSize="normal"
+        app:layout_anchor="@id/recyclerView"
+        app:layout_anchorGravity="top"
+        app:elevation="0dp"  />
+
+    <com.scwang.smartrefresh.header.flyrefresh.FlyView
+        android:id="@+id/flyView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_anchor="@id/fab"
+        app:layout_anchorGravity="center"
+        app:elevation="3dp" />
+
+</android.support.design.widget.CoordinatorLayout>
