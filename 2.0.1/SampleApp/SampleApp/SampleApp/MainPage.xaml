@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SampleApp.MainPage"
+             Title="2.0.1 Demo">
+
+    <ScrollView>
+        <StackLayout Orientation="Vertical">
+            <Button Text="HeaderClassics" x:Name="HeaderClassicsBtn" Clicked="HeaderClassicsBtn_Clicked"></Button>
+            <Button Text="HeaderFalsify" x:Name="HeaderFalsifyBtn" Clicked="HeaderFalsifyBtn_Clicked"></Button>
+            <Button Text="HeaderMaterial" x:Name="HeaderMaterialBtn" Clicked="HeaderMaterialBtn_Clicked"></Button>
+            <Button Text="HeaderRadar" x:Name="HeaderRadarBtn" Clicked="HeaderRadarBtn_Clicked"></Button>
+            <Button Text="HeaderTwoLevel" x:Name="HeaderTwoLevelBtn" Clicked="HeaderTwoLevelBtn_Clicked"></Button>
+            <Button Text="FooterBall" x:Name="FooterBallBtn" Clicked="FooterBallBtn_Clicked"></Button>
+            <Button Text="FooterClassics" x:Name="FooterClassicsBtn" Clicked="FooterClassicsBtn_Clicked"></Button>
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>
