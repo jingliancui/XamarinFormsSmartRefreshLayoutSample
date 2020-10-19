@@ -3,7 +3,7 @@ Sample for showing SmartRefreshLayout on xamarin.forms
 
 Tutorial:
 
-https://mp.weixin.qq.com/s/ctYslC7LW5Tbij_3lLDYig
+https://mp.weixin.qq.com/s/7W5tWzRtZkyGdzYzoj4lVg
 
 QQ Group:313308215
 
